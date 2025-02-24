@@ -1,0 +1,9 @@
+```python import
+pandas as pd
+# Creating a simple income statement data dictionary data = {
+'Revenue': [100000], 'COGS': [40000], 'Gross Profit': [60000],
+'Operating Expenses': [20000], 'Operating Income': [40000], 'Interest
+Expense': [5000], 'Tax Expense': [7000], 'Net Income': [28000] }
+# Converting to DataFrame income_statement =
+pd.DataFrame(data, index=['YTD 2023']) print(income_statement)
+```
